@@ -1,0 +1,171 @@
+body{position:fixed;}
+.center
+{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+#game
+{ 
+	width: 100%;
+	height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.col-md-6
+{
+	padding: 0 !important;
+	background: red;
+}
+#question
+{
+	height: 20vh;
+	padding-top: 2vh;
+	text-align: center;
+	font-size: 20px;
+	cursor: pointer;
+	
+	background-color: hsl(0, 0%, 16%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b5b5b", endColorstr="#282828");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#5b5b5b), to(#282828));
+	background-image: -moz-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -ms-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5b5b5b), color-stop(100%, #282828));
+	background-image: -webkit-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -o-linear-gradient(top, #5b5b5b, #282828);
+	background-image: linear-gradient(#5b5b5b, #282828);
+	border-color: #282828 #282828 hsl(0, 0%, 11%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
+.btn-playN
+{
+	width: 50vw;
+	height: 15vh;
+	font-size: 20px;
+	border-radius: 10px;
+	
+	background-color: hsl(0, 0%, 16%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5b5b5b", endColorstr="#282828");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#5b5b5b), to(#282828));
+	background-image: -moz-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -ms-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5b5b5b), color-stop(100%, #282828));
+	background-image: -webkit-linear-gradient(top, #5b5b5b, #282828);
+	background-image: -o-linear-gradient(top, #5b5b5b, #282828);
+	background-image: linear-gradient(#5b5b5b, #282828);
+	border-color: #282828 #282828 hsl(0, 0%, 11%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
+.btn-playN:hover 
+{
+	background-position: 0 -15px;
+	color: #333;
+	text-decoration: none;
+}
+.btn-playC
+{
+	width: 50vw;
+	height: 15vh;
+	font-size: 20px;
+	border-radius: 10px;
+	
+	background-color: hsl(110, 56%, 16%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#398f28", endColorstr="#193f11");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#398f28), to(#193f11));
+	background-image: -moz-linear-gradient(top, #398f28, #193f11);
+	background-image: -ms-linear-gradient(top, #398f28, #193f11);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #398f28), color-stop(100%, #193f11));
+	background-image: -webkit-linear-gradient(top, #398f28, #193f11);
+	background-image: -o-linear-gradient(top, #398f28, #193f11);
+	background-image: linear-gradient(#398f28, #193f11);
+	border-color: #193f11 #193f11 hsl(110, 56%, 11%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
+.btn-playC:hover 
+{
+	background-position: 0 -15px;
+	color: #333;
+	text-decoration: none;
+}
+.btn-playW
+{
+	width: 50vw;
+	height: 15vh;
+	font-size: 20px;
+	border-radius: 10px;
+	
+	background-color: hsl(0, 69%, 22%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b42121", endColorstr="#5e1111");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#b42121), to(#5e1111));
+	background-image: -moz-linear-gradient(top, #b42121, #5e1111);
+	background-image: -ms-linear-gradient(top, #b42121, #5e1111);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b42121), color-stop(100%, #5e1111));
+	background-image: -webkit-linear-gradient(top, #b42121, #5e1111);
+	background-image: -o-linear-gradient(top, #b42121, #5e1111);
+	background-image: linear-gradient(#b42121, #5e1111);
+	border-color: #5e1111 #5e1111 hsl(0, 69%, 17%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
+.btn-playW:hover 
+{
+	background-position: 0 -15px;
+	color: #333;
+	text-decoration: none;
+}
+.centerBtn
+{
+	text-align: center;
+}
+.btn-Next
+{
+	width: 20vw;
+	height: 10vh;
+	font-size: 20px;
+	border-radius: 10px;
+	visibility: hidden;
+	
+	background-color: hsl(36, 100%, 40%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffad32", endColorstr="#cc7a00");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#ffad32), to(#cc7a00));
+	background-image: -moz-linear-gradient(top, #ffad32, #cc7a00);
+	background-image: -ms-linear-gradient(top, #ffad32, #cc7a00);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffad32), color-stop(100%, #cc7a00));
+	background-image: -webkit-linear-gradient(top, #ffad32, #cc7a00);
+	background-image: -o-linear-gradient(top, #ffad32, #cc7a00);
+	background-image: linear-gradient(#ffad32, #cc7a00);
+	border-color: #cc7a00 #cc7a00 hsl(36, 100%, 35%);
+	color: #333 !important;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.33);
+	-webkit-font-smoothing: antialiased;
+}
+.btn-Next:hover 
+{
+	background-position: 0 -15px;
+	color: #333;
+	text-decoration: none;
+}
+#gameForm
+{
+	visibility: hidden;
+}
+
+#navPracticeGame
+{
+	visibility: hidden;
+}
